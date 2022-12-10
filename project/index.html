@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="signin.html">Sign In</a>
+        <a href="contact.html">Contact us</a>
+        <a href="checkout.html">Payment</a>
+    </div>
+    <h1 align="center">Hotel Management System</h1>
+
+    <video autoplay width="100%">
+        <source src="video/Restaurant - 1192.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <br>
+    <br>
+    <h1 align="center"> Food Menu</h1>
+    <img src="images/food-menu1.jpg" alt="menu 1" align="left" height="300px" width="300px">
+    <img src="images/food-menu2.jpg" alt="menu 2" align="right" height="300px" width="300px">
+    <table align="center">
+        <div>
+            <tr>
+                <th>Menu</th>
+                <th>Rate</th>
+            </tr>
+            <tr>
+                <td> Chicken curry</td>
+                <td>Rs.110</td>
+            </tr>
+            <tr>
+                <td>Chicken chilly</td>
+                <td>Rs.80</td>
+            </tr>
+            <tr>
+                <td>Fryed Chicken</td>
+                <td>Rs.80</tc>
+            </tr>
+            <tr>
+                <td>Chicken Biryani</td>
+                <td>Rs.150</tc>
+            </tr>
+            <tr>
+                <td>Mutton curry</td>
+                <td>Rs.220</tc>
+            </tr>
+            <tr>
+                <td>Mutton Kimma</td>
+                <td>Rs.220</tc>
+            </tr>
+            <tr>
+                <td>Mutton Kalayji</td>
+                <td>Rs.190</tc>
+            </tr>
+            <tr>
+                <td>Mutton Biryani</td>
+                <td>Rs.300</tc>
+            </tr>
+    </table>
+    <p align="center">For Placing order call at <b>1234567890</b>
+
+        </div>
+        <form id="form">
+            <div class="form-control">
+                <label for="name" id="label-name">
+                    Name
+                </label>
+                <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+
+            <div class="form-control">
+                <label for="email" id="label-email">
+                    Email
+                </label>
+                <input type="email" id="email" placeholder="Enter your email" />
+            </div>
+
+            <div class="form-control">
+                <label for="Contact Number" id="label-Contact Number">
+                    Contact Number
+                </label>
+                <input type="text" id="Contact Number" placeholder="Enter your Contact Number" />
+            </div>
+
+            <div class="form-control">
+                <label for="role" id="label-role">
+                    Which Payment Option do yo prefer
+                </label>
+                <select name="role" id="role">
+                    <option value="UPI">UPI</option>
+                    <option value="Cash on Delivery">Cash on Delivery</option>
+                    <option value="Net Banking">
+                        Net Banking
+                    </option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label>
+                    Would you recommend this
+                    to a friend?
+                </label>
+                <label for="recommed-1">
+                    <input type="radio" id="recommed-1" name="recommed">Yes</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio" id="recommed-2" name="recommed">No</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio" id="recommed-3" name="recommed">Maybe</input>
+                </label>
+            </div>
+
+
+            <div class="form-control">
+                <label>Choose your Order
+                    <small>(Check all that apply)</small>
+                </label>
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">Chicken curry</input></label>
+                <label for="inp-2">
+                    <input type="checkbox" name="inp">Chicken chilly</input></label>
+                <label for="inp-3">
+                    <input type="checkbox" name="inp">Fryed Chicken</input></label>
+                <label for="inp-4">
+                    <input type="checkbox" name="inp">Chicken Biryani</input></label>
+                <label for="inp-5">
+                    <input type="checkbox" name="inp">Mutton curry</input></label>
+                <label for="inp-6">
+                    <input type="checkbox" name="inp">Mutton Kimma</input></label>
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">Mutton Kalayji</input></label>
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">Mutton Biryani</input></label>
+            </div>
+
+            <div class="form-control">
+                <label for="comment">
+                    Any comments or suggestions
+                </label>
+                <textarea name="comment" id="comment" placeholder="Enter your comment here">
+            </textarea>
+            </div>
+            <button type="submit" value="sumbit">
+                <a href="checkout.html">Submit</a>
+            </button>
+        </form>
+
+</body>
+
+</html>
